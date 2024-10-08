@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build src/css/custom.css -o dist/css/output.css",
+    "watch:css": "npx tailwindcss -i ./src/css/custom.css -o ./dist/css/output.css --watch"
+
+  }
+}
